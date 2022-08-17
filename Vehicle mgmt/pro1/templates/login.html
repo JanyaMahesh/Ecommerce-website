@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
+    <style>
+        * {
+            border: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+        background-image: url('https://t3.ftcdn.net/jpg/02/72/43/78/240_F_272437887_lgtV24PGnSCnCvHrgHoCTuG4gJdnTBt4.jpg');
+        background-size: cover;
+
+        }
+
+        .container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            max-width: fit-content;
+            max-height: fit-content;
+
+        }
+        
+        .header {
+            padding: 10px;
+            justify-content: space-between;
+            
+            text-align: center;
+            background: transparent;
+            font-size: 10px;
+        }
+
+        .container .btn1,.btn2,.btn3,.login {
+            transition: all .5s ease;
+            color: #fff;
+            position: absolute;
+            text-transform: uppercase;
+            line-height: 1;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            background-color: transparent;
+            font-size: 30px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            cursor: pointer;
+            border-radius: 20px;
+            text-align: center;
+            border: 3px solid white;
+            
+
+
+        }
+        .container .btn1{
+            display: inline-block;
+            margin-right: 5px;
+            top: 50%;
+            padding:22px 35px;
+            left: -150%;
+        }
+        .container .btn2{
+            left: 50%;
+            top: 50%;
+            padding:22px 50px;
+
+        }
+        .container .btn3{
+            left: 250%;
+            top: 50%;
+            padding:22px 55px;
+
+        }
+
+        .container .btn1:hover {
+            color: #001F3F;
+            background-color: #fff;
+        }
+        .container .btn2:hover {
+            color: #001F3F;
+            background-color: #fff;
+        }
+        .container .btn3:hover {
+            color: #001F3F;
+            background-color: #fff;
+        }
+
+    
+
+        .header {
+            overflow: hidden;
+            padding: 10px 10px;
+
+        }
+        .heading
+        {
+            font-size: 50px;
+            color:white;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }    
+        </style>
+</head>
+
+<body>
+    <div>
+
+        <div class="container">
+            <div class="image">
+
+                <header class="heading">Login as:</header>
+                <p><a href="/employee"><button class="btn1">Employee</button></a></p>
+                <p><a href="/owner"><button class="btn2">Owner</button></p></a>
+                <p><a href="/agent"><button class="btn3">Agent</button></p></a></p>
+    
+              
+            
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
